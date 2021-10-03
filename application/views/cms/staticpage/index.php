@@ -14,8 +14,15 @@
                     <div class="col-12 d-flex no-block align-items-center">
                         <h4 class="page-title">Manage Static Pages</h4>
                        
-                    </div>
+                        </div>
+
                 </div>
+                
+                <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title mb-0"><a href="<?php echo base_url().'adminpanel/admin/dashboard';?>">Dashboard </a> / <a href="<?php echo base_url().'adminpanel/staticpage/addpage';?>">Add Page</a></h5>
+                            </div>
+                        </div>
             </div>
             <!-- ============================================================== -->
             <!-- End Bread crumb and right sidebar toggle -->
@@ -30,11 +37,7 @@
                 <div class="row">
                     <div class="col-12">
                         
-                        <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0">Dashboard / Add Page</h5>
-                            </div>
-                        </div>
+                        
                         <!--  -->
                         
                         <div class="card">
@@ -61,7 +64,7 @@
                                                 <td>Singapore</td>
                                                 <td>29</td>
                                                 <td>2011/06/27</td>
-                                                <td>$183,000</td>
+                                                <td><i class="fas fa-edit"></i> <span>&nbsp; </span> <i class="fas fa-trash-alt"></i></td>
                                             </tr>
                                             <tr>
                                                 <td>Donna Snider</td>
@@ -69,13 +72,13 @@
                                                 <td>New York</td>
                                                 <td>27</td>
                                                 <td>2011/01/25</td>
-                                                <td>$112,000</td>
+                                                <td><i class="fas fa-edit"></i> <span>&nbsp; </span> <i class="fas fa-trash-alt"></i></td>
                                             </tr>
                                         </tbody>
                                         <tfoot>
                                             <tr>
                                                 <th>S. No.</th>
-                                                <th>Page Title<</th>
+                                                <th>Page Title</th>
                                                 <th>Status</th>
                                                 <th>Create On</th>
                                                 <th>Update On</th>
@@ -101,7 +104,7 @@
                 <!-- ============================================================== -->
             </div>
   
-     <?php $this->load->view('cms/include/footer',$controller_type);?>
+     <?php $this->load->view('cms/include/footer');?>
 
      <script>
         /****************************************

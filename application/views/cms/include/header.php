@@ -17,7 +17,7 @@
     <!-- Custom CSS -->
     <link href="<?php echo base_url();?>assets/back/assets/libs/flot/css/float-chart.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link href="<?php echo base_url();?>assets/back/dist/css/style.min.css" rel="stylesheet">
+    <!-- <link href="<?php echo base_url();?>assets/back/dist/css/style.min.css" rel="stylesheet"> -->
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,7 +29,12 @@
 <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/back/assets/extra-libs/multicheck/multicheck.css">
 <link href="<?php echo base_url();?>assets/back/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
 
-
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/back/assets/libs/select2/dist/css/select2.min.css">
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/back/assets/libs/jquery-minicolors/jquery.minicolors.css">
+<link rel="stylesheet" type="text/css"
+        href="<?php echo base_url();?>assets/back/assets/libs/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/back/assets/libs/quill/dist/quill.snow.css">
+    <link href="<?php echo base_url();?>assets/back/dist/css/style.min.css" rel="stylesheet">
 </head>
 
 <body>

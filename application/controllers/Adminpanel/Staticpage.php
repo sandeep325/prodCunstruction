@@ -12,6 +12,9 @@ class Staticpage extends CI_Controller {
 
 	public function addpage()
 	{
+
+		// echo onlyYearCur;
+		// echo "test"; die;
       $this->load->view('cms/staticpage/addpage');
 	}
 

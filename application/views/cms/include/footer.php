@@ -2,7 +2,6 @@
                 All Rights Reserved by <?php echo SiteName; ?>. Designed and Developed by <a
                     href="#"><?php echo devloperName ; ?></a>.
             
-                    <?php echo $controller_type; ?>
                 </footer>
             <!-- ============================================================== -->
             <!-- ============================================================== -->
@@ -43,6 +42,20 @@
     <script src="<?php echo base_url();?>assets/back/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
     <script src="<?php echo base_url();?>assets/back/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
     <script src="<?php echo base_url();?>assets/back/assets/extra-libs/DataTables/datatables.min.js"></script>
+
+
+
+
+    <script src="<?php echo base_url();?>assets/back/assets/libs/inputmask/dist/min/jquery.inputmask.bundle.min.js"></script>
+    <script src="<?php echo base_url();?>assets/back/dist/js/pages/mask/mask.init.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/libs/select2/dist/js/select2.full.min.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/libs/select2/dist/js/select2.min.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/libs/jquery-asColor/dist/jquery-asColor.min.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/libs/jquery-asGradient/dist/jquery-asGradient.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/libs/jquery-asColorPicker/dist/jquery-asColorPicker.min.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/libs/jquery-minicolors/jquery.minicolors.min.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/libs/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/libs/quill/dist/quill.min.js"></script>
 
 </body>
 

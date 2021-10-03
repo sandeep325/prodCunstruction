@@ -84,6 +84,38 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-//my constants
+//my constants defines
+
+// website constants
 defined('SiteName')      OR define('SiteName', 'prod Cunstruction'); //sites name
 defined('devloperName')      OR define('devloperName', 'Sandeep Negi'); //sites name
+defined('onlyYearCur')    OR define('onlyYearCur',date("Y"));
+
+// height width const
+                       
+// for banner
+defined('banner_large_image_width')      OR define('banner_large_image_width', '1920px');
+defined('banner_large_image_height')      OR define('banner_large_image_height', '500px');
+
+defined('banner_medium_image_width')      OR define('banner_medium_image_width', '960px');
+defined('banner_medium_image_height')      OR define('banner_medium_image_height', '250px');
+
+defined('banner_small_image_width')      OR define('banner_small_image_width', '768px');
+defined('banner_small_image_height')      OR define('banner_small_image_height', '200px');
+
+                             // start for imgs
+
+defined('large_image_width')      OR define('large_image_width', '800px');
+defined('large_image_height')      OR define('large_image_height', '495px');
+
+defined('medium_image_width')      OR define('medium_image_width', '598px');
+defined('medium_image_height')      OR define('medium_image_height', '370px');
+
+defined('small_image_width')      OR define('small_image_width', '394px');
+defined('small_image_height')      OR define('small_image_height', '244px');
+
+                        // for profile pic
+defined('small_profile_width')      OR define('small_profile_width', '100px');
+defined('small_profile_height')      OR define('small_profile_height', '100px');
+
+
