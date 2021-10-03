@@ -1,7 +1,9 @@
 <footer class="footer text-center">
                 All Rights Reserved by <?php echo SiteName; ?>. Designed and Developed by <a
                     href="#"><?php echo devloperName ; ?></a>.
-            </footer>
+            
+                    <?php echo $controller_type; ?>
+                </footer>
             <!-- ============================================================== -->
             <!-- ============================================================== -->
         </div>
@@ -38,9 +40,9 @@
     <script src="<?php echo base_url();?>assets/back/assets/libs/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
     <script src="<?php echo base_url();?>assets/back/dist/js/pages/chart/chart-page-init.js"></script>
 
-    <script src="<?php echo base_url();?>assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
-    <script src="<?php echo base_url();?>assets/extra-libs/multicheck/jquery.multicheck.js"></script>
-    <script src="<?php echo base_url();?>assets/extra-libs/DataTables/datatables.min.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/extra-libs/multicheck/datatable-checkbox-init.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/extra-libs/multicheck/jquery.multicheck.js"></script>
+    <script src="<?php echo base_url();?>assets/back/assets/extra-libs/DataTables/datatables.min.js"></script>
 
 </body>
 

@@ -5,7 +5,9 @@ class Staticpage extends CI_Controller {
 
 	public function index()
 	{
-     $this->load->view('cms/staticpage/index');
+		$controller_type = "staticpage";
+		$result['controller_type'] = $controller_type; 
+     $this->load->view('cms/staticpage/index',$result);
 	}
 
 	public function addpage()
